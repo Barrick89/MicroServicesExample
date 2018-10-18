@@ -1,7 +1,7 @@
 package de.mahausch.microservicesexample.limitsservice.bean;
 
 public class LimitConfiguration {
-
+    
     private int maximum;
     private int minimum;
 
