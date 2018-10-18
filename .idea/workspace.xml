@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1f751ac4-c604-41f2-9af8-2ae09be073ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/limits-service-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/limits-service-qa.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/limits-service.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/limits-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/limits-service/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/limits-service/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-config-server/target/" />
@@ -31,24 +26,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="4" />
-          <entry key="properties" value="5" />
+          <entry key="properties" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="4" />
-          <entry key="Properties" value="5" />
+          <entry key="Properties" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="properties" value="102" />
-          <entry key="txt" value="48" />
+          <entry key="txt" value="82" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="48" />
+          <entry key="PLAIN_TEXT" value="82" />
           <entry key="Properties" value="102" />
         </counts>
       </usages-collector>
@@ -74,13 +69,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/localconfig-repo/limits-service.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/localconfig-repo/limits-service-dev.properties">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -156,6 +161,11 @@
             </path>
             <path>
               <item name="MicroServicesExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-config-server" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="localconfig-repo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroServicesExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="limits-service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -166,7 +176,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539863867501" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539863975622" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/localconfig-repo" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -306,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539861856929</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Put property files in own folder">
+      <created>1539863936034</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1539863936034</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -346,7 +363,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change of project structure" />
     <MESSAGE value="Dev and QA properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dev and QA properties" />
+    <MESSAGE value="Put property files in own folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Put property files in own folder" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/limits-service.properties">
@@ -408,9 +426,15 @@
     <entry file="file://$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/localconfig-repo/limits-service-dev.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/localconfig-repo/limits-service.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
