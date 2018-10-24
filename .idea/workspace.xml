@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f751ac4-c604-41f2-9af8-2ae09be073ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/java/de/mahausch/microservicesexample/currencyconversionservice/CurrencyConversionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/de/mahausch/microservicesexample/currencyexchangeservice/CurrencyExchangeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/de/mahausch/microservicesexample/currencyexchangeservice/ExchangeValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/de/mahausch/microservicesexample/currencyexchangeservice/ExchangeValueRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-exchange-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/limits-service/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-config-server/target/" />
+    <ignored path="$PROJECT_DIR$/currency-exchange-service/target/" />
+    <ignored path="$PROJECT_DIR$/currency-conversion-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,35 +32,46 @@
     <session id="-9051238">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
-          <entry key="properties" value="7" />
+          <entry key="java" value="9" />
+          <entry key="properties" value="9" />
+          <entry key="sql" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
-          <entry key="Properties" value="7" />
+          <entry key="JAVA" value="9" />
+          <entry key="Properties" value="9" />
+          <entry key="SQL" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="properties" value="102" />
-          <entry key="txt" value="82" />
+          <entry key="java" value="560" />
+          <entry key="properties" value="240" />
+          <entry key="sql" value="118" />
+          <entry key="txt" value="127" />
+          <entry key="xml" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="82" />
-          <entry key="Properties" value="102" />
+          <entry key="JAVA" value="560" />
+          <entry key="PLAIN_TEXT" value="127" />
+          <entry key="Properties" value="240" />
+          <entry key="SQL" value="118" />
+          <entry key="XML" value="30" />
         </counts>
       </usages-collector>
     </session>
@@ -56,7 +79,74 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/limits-service/src/main/java/de/mahausch/microservicesexample/limitsservice/LimitsServiceApplication.java">
+        <entry file="file://$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/currency-exchange-service/src/main/java/de/mahausch/microservicesexample/currencyexchangeservice/ExchangeValueRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/currency-exchange-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/currency-exchange-service/src/main/java/de/mahausch/microservicesexample/currencyexchangeservice/CurrencyExchangeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/currency-conversion-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/currency-conversion-service/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/currency-conversion-service/src/main/java/de/mahausch/microservicesexample/currencyconversionservice/CurrencyConversionController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/currency-exchange-service/src/main/java/de/mahausch/microservicesexample/currencyexchangeservice/CurrencyExchangeServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -65,61 +155,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/limits-service/src/main/resources/bootstrap.properties">
+        <entry file="file://$PROJECT_DIR$/currency-exchange-service/src/main/java/de/mahausch/microservicesexample/currencyexchangeservice/ExchangeValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="330">
+              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/currency-exchange-service/src/main/resources/data.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/localconfig-repo/limits-service.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/localconfig-repo/limits-service-dev.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/limits-service/src/main/java/de/mahausch/microservicesexample/limitsservice/LimitsConfigurationController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/limits-service/src/main/java/de/mahausch/microservicesexample/limitsservice/Configuration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-config-server/src/main/java/de/mahausch/microservicesexample/springcloudconfigserver/SpringCloudConfigServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="14" selection-end-line="14" />
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sql</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -131,6 +202,14 @@
         <option value="$PROJECT_DIR$/limits-service-qa.properties" />
         <option value="$PROJECT_DIR$/limits-service/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/currency-exchange-service/pom.xml" />
+        <option value="$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/currency-exchange-service/src/main/java/de/mahausch/microservicesexample/currencyexchangeservice/ExchangeValue.java" />
+        <option value="$PROJECT_DIR$/currency-exchange-service/src/main/resources/data.sql" />
+        <option value="$PROJECT_DIR$/currency-exchange-service/src/main/java/de/mahausch/microservicesexample/currencyexchangeservice/ExchangeValueRepository.java" />
+        <option value="$PROJECT_DIR$/currency-exchange-service/src/main/java/de/mahausch/microservicesexample/currencyexchangeservice/CurrencyExchangeController.java" />
+        <option value="$PROJECT_DIR$/currency-conversion-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/currency-conversion-service/src/main/java/de/mahausch/microservicesexample/currencyconversionservice/CurrencyConversionController.java" />
       </list>
     </option>
   </component>
@@ -143,10 +222,16 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="548" />
-    <option name="y" value="145" />
-    <option name="width" value="1163" />
+    <option name="x" value="210" />
+    <option name="y" value="156" />
+    <option name="width" value="1153" />
     <option name="height" value="702" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -156,79 +241,87 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="MicroServicesExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-config-server" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="currency-conversion-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MicroServicesExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-config-server" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="localconfig-repo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MicroServicesExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-config-server" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="spring-cloud-config-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MicroServicesExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-config-server" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="spring-cloud-config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="currency-conversion-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MicroServicesExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-config-server" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="spring-cloud-config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="currency-conversion-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MicroServicesExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-config-server" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="spring-cloud-config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="currency-conversion-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MicroServicesExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-config-server" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="spring-cloud-config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="currency-conversion-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloudconfigserver" type="462c0819:PsiDirectoryNode" />
+              <item name="currencyconversionservice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MicroServicesExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-config-server" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="spring-cloud-config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="currency-conversion-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MicroServicesExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="limits-service" type="462c0819:PsiDirectoryNode" />
+              <item name="currency-exchange-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroServicesExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="currency-exchange-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroServicesExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="currency-exchange-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroServicesExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="currency-exchange-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539870062539" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/currency-exchange-service" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540382318115" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/currency-conversion-service" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="de.mahausch.microservicesexample.currencyexchangeservice" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -242,7 +335,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LimitsServiceApplication">
+  <component name="RunManager" selected="Application.CurrencyExchangeServiceApplication8001">
+    <configuration name="CurrencyExchangeServiceApplication8000" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="de.mahausch.microservicesexample.currencyexchangeservice.CurrencyExchangeServiceApplication" />
+      <module name="currency-exchange-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.mahausch.microservicesexample.currencyexchangeservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CurrencyExchangeServiceApplication8001" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="de.mahausch.microservicesexample.currencyexchangeservice.CurrencyExchangeServiceApplication" />
+      <module name="currency-exchange-service" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LimitsServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.mahausch.microservicesexample.limitsservice.LimitsServiceApplication" />
       <module name="limits-service" />
@@ -328,13 +442,16 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.CurrencyExchangeServiceApplication8001" />
       <item itemvalue="Application.SpringCloudConfigServerApplication" />
       <item itemvalue="Application.LimitsServiceApplication" />
+      <item itemvalue="Application.CurrencyExchangeServiceApplication8000" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LimitsServiceApplication" />
+        <item itemvalue="Application.CurrencyExchangeServiceApplication8000" />
         <item itemvalue="Application.SpringCloudConfigServerApplication" />
+        <item itemvalue="Application.LimitsServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -377,14 +494,21 @@
       <option name="project" value="LOCAL" />
       <updated>1539864054541</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add microservice currency-exchange-service">
+      <created>1540282445344</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1540282445344</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1175" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.255119" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.257886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -393,7 +517,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32981783" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3291866" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -409,8 +533,11 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32982844" />
     </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -419,7 +546,8 @@
     <MESSAGE value="Change of project structure" />
     <MESSAGE value="Dev and QA properties" />
     <MESSAGE value="Put property files in own folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Put property files in own folder" />
+    <MESSAGE value="Add microservice currency-exchange-service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add microservice currency-exchange-service" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/limits-service.properties" />
@@ -470,6 +598,85 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency-exchange-service/src/main/java/de/mahausch/microservicesexample/currencyexchangeservice/CurrencyExchangeServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency-exchange-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency-exchange-service/src/main/java/de/mahausch/microservicesexample/currencyexchangeservice/ExchangeValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency-exchange-service/src/main/resources/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency-exchange-service/src/main/java/de/mahausch/microservicesexample/currencyexchangeservice/CurrencyExchangeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency-conversion-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency-exchange-service/src/main/java/de/mahausch/microservicesexample/currencyexchangeservice/ExchangeValueRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency-conversion-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency-conversion-service/src/main/java/de/mahausch/microservicesexample/currencyconversionservice/CurrencyConversionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -525,7 +732,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spring-cloud-config-server</last-edited>
+          <last-edited>currency-conversion-service</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
